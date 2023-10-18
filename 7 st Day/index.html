@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer type="module" src="index.js" ></script>
+
+
+    <title>7 st Day</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="input-sction grid grid--3-cols">
+        <div class="sction-day">
+          <p id="day">DAY</p>
+          <input type="text" placeholder="DD" id="date" class="input__day" />
+        </div>
+        <div class="sction-month">
+          <p id="mounth">MONTH</p>
+          <input type="text" placeholder="MM" id="month" class="input__month" />
+        </div>
+        <div class="sction-year">
+          <p id="year___">YEAR</p>
+          <input type="text" placeholder="YYYY" id="year" class="input__day" />
+        </div>
+      </div>
+      <div class="base">
+        <button name="submit" id="btn__submit" class="btn">Submit</button>
+      </div>
+
+      <div class="paragraph">
+        <div class="jahre">
+          <p class="paragraph-style" id="years__">- -</p>
+          <p class="paragraph-style-zwei id="years_paragraph">years</p>
+        </div>
+        <div class="monat">
+          <p class="paragraph-style" id="months__">- -</p>
+          <p class="paragraph-style-zwei id="months_paragraph">months</p>
+        </div>
+        <div class="tagen">
+          <p class="paragraph-style" id="tags__">- -</p>
+          <p  class="paragraph-style-zwei id="tags_paragraph">days</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<div class="attribution">Coded by Can Arda</div>

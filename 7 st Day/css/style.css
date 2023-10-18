@@ -1,0 +1,104 @@
+/*
+font-family: 'Poppins', sans-serif;
+*/
+/*************************
+***** INPUT PARAGRAPH ****
+**********************/
+
+.sction-day p {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  color: hsl(0, 1%, 44%);
+  margin-bottom: 1rem;
+}
+
+.sction-month p {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  color: hsl(0, 1%, 44%);
+  margin-bottom: 1rem;
+}
+
+.sction-year p {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  color: hsl(0, 1%, 44%);
+  margin-bottom: 1rem;
+}
+
+/*************************
+***** INPUT ***********
+**********************/
+
+.input-sction {
+  gap: 2rem;
+}
+
+input {
+  width: 10rem;
+  height: 5rem;
+  font-size: 2rem;
+  padding-left: 1rem;
+  font-weight: 800;
+  color: hsl(0, 1%, 44%);
+}
+
+/*************************
+***** BUTTON ***********
+**********************/
+
+.base {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.btn {
+  width: 10rem;
+  height: 5rem;
+  margin-left: -3.4rem;
+  cursor: pointer;
+  background-color: hsl(259, 100%, 65%);
+  border: none;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/*************************
+***** YEARS ***********
+**********************/
+
+.jahre,
+.monat,
+.tagen {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  align-items: left;
+}
+
+.paragraph-style {
+  color: hsl(259, 100%, 65%);
+  font-family: "Poppins", sans-serif;
+  font-size: 8rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.paragraph-style-zwei {
+  font-family: "Poppins", sans-serif;
+  font-size: 8rem;
+  margin-left: 2rem;
+  font-weight: 700;
+  font-style: italic;
+}
